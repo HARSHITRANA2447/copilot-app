@@ -1065,12 +1065,6 @@ Contributions are what make the open-source community such an amazing place to l
 
 ---
 
-## 🐛 Known Issues
-
-Currently, there are no known issues. If you discover a bug, please [open an issue](https://github.com/yourusername/task-manager-pro/issues).
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -1090,16 +1084,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**Your Name** - [@yourtwitter](https://twitter.com/yourtwitter) - your.email@example.com
+**Your Name** - [@yourtwitter]([https://twitter.com/yourtwitter](https://www.linkedin.com/in/harshit-rana-4a7004223/)) - harshitrana637@gmail.com
 
-Project Link: [https://github.com/yourusername/task-manager-pro](https://github.com/yourusername/task-manager-pro)
+Project Link: [https://github.com/HARSHITRANA2447]([https://github.com/yourusername/task-manager-pro](https://github.com/HARSHITRANA2447/copilot-app.git))
 
 ### Connect With Me
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourusername)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourusername)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://yourportfolio.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)]([https://github.com/yourusername](https://github.com/HARSHITRANA2447))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://link](https://www.linkedin.com/in/harshit-rana-4a7004223/))
+
 
 </div>
 
