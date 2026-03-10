@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Copilot App - Tasks</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="app-title">
+        <h1>Copilot Tasks</h1>
+        <div class="app-sub">Simple task manager (H2 + JPA backend)</div>
+      </div>
+      <div class="controls">
+        <button id="refreshBtn" class="btn" aria-label="Refresh tasks">Refresh</button>
+        <button id="toggleTheme" class="btn btn-ghost" aria-pressed="false">Toggle Theme</button>
+      </div>
+    </header>
+
+    <main class="main-grid">
+      <aside>
+        <div class="card form-section">
+          <h3 id="formTitle">Create Task</h3>
+          <div id="formMessage" class="timestamp" aria-live="polite" style="margin-bottom:.5rem"></div>
+          <form id="taskForm">
+            <label for="titleInput" class="label">Title</label>
+            <input id="titleInput" class="input" name="title" required />
+
+            <label for="descInput" class="label" style="margin-top:.6rem">Description</label>
+            <textarea id="descInput" class="input" name="description"></textarea>
+
+            <div class="form-row" style="margin-top:.6rem">
+              <label for="completedInput" style="display:flex;align-items:center;gap:.5rem"><input id="completedInput" type="checkbox" /> Completed</label>
+            </div>
+
+            <div style="margin-top:.8rem;display:flex;gap:.5rem">
+              <button id="saveBtn" class="btn btn-primary" type="submit">Save</button>
+              <button id="cancelEdit" class="btn btn-ghost" type="button">Cancel</button>
+            </div>
+          </form>
+        </div>
+      </aside>
+
+      <section>
+        <div class="card">
+          <div style="display:flex;gap:.5rem;align-items:center;margin-bottom:.75rem">
+            <div class="search" style="flex:1">
+              <!-- visually-hidden label for accessibility -->
+              <label for="searchInput" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden">Search tasks</label>
+              <input id="searchInput" class="input" placeholder="Search title..." aria-label="Search tasks" />
+            </div>
+            <!-- visually-hidden label for the select -->
+            <label for="filterCompleted" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden">Filter by completion</label>
+            <select id="filterCompleted" class="input" style="width:160px" aria-label="Filter by completion">
+              <option value="">All</option>
+              <option value="false">Active</option>
+              <option value="true">Completed</option>
+            </select>
+          </div>
+
+          <div id="taskList" class="task-list" role="list">
+            <!-- tasks render here -->
+          </div>
+
+          <div id="emptyState" class="empty" style="display:none">No tasks yet — create one on the left.</div>
+        </div>
+      </section>
+    </main>
+
+    <footer style="margin-top:1.5rem;color:var(--muted);font-size:.9rem">
+      <a href="/h2-console">H2 Console</a> — available when running with the <code>dev</code> profile
+    </footer>
+  </div>
+
+  <script src="/js/app.js" defer></script>
+</body>
+</html>
